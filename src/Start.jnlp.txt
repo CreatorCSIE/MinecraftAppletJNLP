@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jnlp spec="1.6+" herf="Start.jnlp">
 <information>
-    <title>Minecraft Classic JNLP Edition. Version: beta4</title>
+    <title>Minecraft Classic JNLP Edition. Development Mode</title>
     <vendor>Markus Persson</vendor>
     <homepage herf="http://mc.classic.com/minecraft/"/>
     <offline-allowed/>
@@ -26,8 +26,8 @@
     <param name="al_linux" value="LWJGL/linux_natives.jar.lzma"/>
     <param name="al_mac" value="LWJGL/macosx_natives.jar.lzma"/>
     <param name="al_solaris" value="LWJGL/solaris_natives.jar.lzma"/>
-    <param name="al_debug" value="false"/>
-    <param name="al_version" value="0.5"/>
+    <param name="al_debug" value="true"/>
+    <param name="al_version" value="0.01"/>
     <param name="codebase_lookup" value="true"/>
     <param name="separate_jvm" value="true"/>
     <!--param name="lwjgl_arguments" value="-Dorg.lwjgl.input.Mouse.allowNegativeMouseCoords=true -Dorg.lwjgl.util.Debug=true -Dorg.lwjgl.opengl.Display.allowSoftwareOpenGL=true"-->
